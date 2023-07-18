@@ -1,4 +1,4 @@
-package com.day7.automation;
+package com.day8.automation;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -6,27 +6,19 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-public class AutomationAssignment_Day7 {
+public class AutomationAssignment_BetterForm_Day7 {
+	
+	public static WebDriver driver;
 
 	public static void main(String[] args) {
-		// tutorialsninja.com
-
-		// Register option all validations for all WebElements - this in one method
-		// Login option all validations for all WebElement - this in another method
-
-		// getTitle
-		// getCurrentUrl
-		// isEnabled()
-		// isDisplayed()
-		// isSelected()
-		
+        
 		LoginValidation();
 		RegisterValidation();
 
 	}
 
 	public static void LoginValidation() {
-		WebDriver driver = new ChromeDriver();
+		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://tutorialsninja.com/demo");
 		driver.findElement(By.linkText("My Account")).click();
@@ -39,7 +31,7 @@ public class AutomationAssignment_Day7 {
 	}
 
 	public static void RegisterValidation() {
-		WebDriver driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("https://tutorialsninja.com/demo");
 		driver.findElement(By.linkText("My Account")).click();
