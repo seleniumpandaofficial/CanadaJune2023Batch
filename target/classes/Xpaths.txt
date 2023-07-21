@@ -1,0 +1,84 @@
+Xpath
+-----
+
+xpath is nothing but address of a web element in the DOM
+
+absolute xpath of Create Account link: - /html/body/div[2]/div/div[3]/p/a[2]
+
+Xpath is divided into 2 types
+1. Absolute Xpath
+2. Relative / Dynamic / Customized Xpath
+
+Syntax of Xpath:-
+-----------------
+//html[@attribute = 'value']
+//html[@attribute1 = 'value1' and @attribute2 = 'value2']
+//html[@attribute1 = 'value1' or @attribute2 = 'value2']
+//html[text() = 'valueofthetext']
+//contains keyword
+//html[contains(text(), 'valueofthetext')]
+//html[contains(@attribute, 'value')]
+//html[starts-with(@id, "hello-")
+//html[ends-with(@id, "-hello")]
+-----------------------------------------------------------------
+Advanced Customized Xpaths
+
+following
+preceding
+following-sibling
+preceding-sibling
+parent
+child
+ancestor
+descendant
+-------------------------------------------------------------------
+we need to understand human family tree
+
+Grandfather > Father > Child
+is your father your ancestor ? YES
+Father is parent as well as ancestor
+Grandfather is only ancestor. He is not parent
+
+Child - is descendant of father ? YES
+Child is descendant of GrandFather but child is not child of GrandFather
+
+//how will you use the syntax of these keywords and frame xpaths
+
+//a[@class = 'signin']/following-sibling::a[1]
+//p[@id = 'signin_info']/child::a[2]
+//span[@id = 'username']/following::a[2]
+//div[@class = 'cell']/following-sibling::div[2]/descendant::a[2]
+//input[@id = 'OAS_subsection']/following-sibling::div[@class = 'logobar']/descendant::p[@id = 'signin_info']/child::a[2]
+//div[@id= 'world_advt_bottom']/parent::*/preceding::p[@id = 'signin_info']/child::a[2]
+//div[@id= 'world_advt_bottom']/parent::*/preceding::p[@id = 'signin_info']/child::a[text() = 'Create Account']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

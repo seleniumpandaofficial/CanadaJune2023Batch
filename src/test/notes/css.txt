@@ -1,0 +1,49 @@
+cssSelectors are somewhat faster than xpath
+
+html[attribute = value]
+a[class = signin]
+
+let's say there is an id attribute for a web element
+
+html#idattributevalue
+input#login1
+
+#idattributevalue
+
+
+let's say a web element has class attribute
+
+html.classvalue
+
+there is a compound class
+classval1 classval2 classval3
+
+html.cv1.cv2.cv3
+
+Traversing in cssSelector
+
+top to bottom from parent to child only you can come
+
+Parent - root element
+p#signin_info > a:nth-of-type(2)
+p#signin_info > a:nth-child(1) + br + a
+p#signin_info > a + br + a
+p#signin_info  a + br + a
+input#OAS_subsection + style + div + div.logobar > div.table > div:nth-of-type(3) > p > a:nth-of-type(2)
+input#OAS_subsection + style + div + div.logobar > div.table > div:nth-of-type(3) > p#signin_info > a:nth-of-type(2)
+
+html#input
+html.classvalue1.value2
+html[attribute=value]
+
+Parent to a child
+
+html > child
+
+html > child:nth-of-type(n)
+
+html  child:nth-of-type(n)
+
+
+siblings can be jumped using +
+

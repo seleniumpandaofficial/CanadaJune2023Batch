@@ -1,0 +1,81 @@
+Selenium 2.16
+
+Selenium 3.141.59
+
+Selenium 4.10.0
+----------------------------------
+Java
+so much to remember
+
+Automation
+apply the concept of Java in Automation
+
+created a java project - we found by default there are java libraries
+but Selenium is an external library
+you have to add that to the java project
+
+from where will I get Selenium Library
+selenium.dev
+
+We do not create a Java Project and keep adding external libraries
+Apache POI
+TestNG
+Junit Libraries
+
+Maven Project - Build and compile
+it will build your project and then it will compile your project
+pom.xml file - which is the heart of maven
+
+Create a Maven Project
+add the jar files in pom.xml file which are known as dependencies
+where we get these depenedencies from - mvnrepository.com
+-----------------------------------------------------------------
+
+File > New > Other > Maven Project
+Next > in the filter maven-archetype-quickstart and you select 1.4
+
+group id - com.learning.automation
+artifact id - NAMEOFTHEPROJECT
+Y : : Y hit Enter
+
+you will see that the maven project is created
+right click on JRE system library and make sure Java 17 is selected
+
+delete the packages only already created by default in src/test/java and src/main/java
+
+open pom.xml and also change from 1.7 to 17 in row number 18 and 19 under properties tag
+
+open https://mvnrepository.com website and type selenium-java
+copy the dependency from there and paste it under <dependencies> tag in pom.xml file
+
+Save the pom.xml file
+
+Right click on the project > Maven > Update Project > Select the checkbox Force update of snapshot(s) and click on OK
+---------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

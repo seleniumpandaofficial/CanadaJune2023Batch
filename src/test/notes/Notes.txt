@@ -1,0 +1,98 @@
+Eclipse IDE
+Intellij IDEA
+
+Who use only laptop's touchpad
+
+Please buy a cordless mouse
+DELL
+Lenovo - Logitech
+
+
+Window > Perspective > Close All Perspectives
+window > Perspective > Open Perspective > Other > Java
+
+
+How to create a Java Project
+How to add JAR files
+You will write your first Java code
+We will write our first automation code
+
+
+Java Project
+  You will have to add JAR files in case it is required
+      You shall create packages
+        You shall create Classes inside the packages
+            You shall write your java code inside the Classes
+
+Save everytime you write a line of code Ctrl+S, Command+S
+
+package Nomenclature -  com.projectname.intentoftheproject
+
+create 3 different projects
+in each project you will create 3 different packages
+and in each package there will be 3 classes
+
+1st project - 3 packages - 3 classes, total 9 classes
+
+Why is java used?
+- jvm (java virtual machine)
+- Java is a secure programming language
+- no pointers
+- Security Manager.
+- Own memory management
+- Access modifiers
+- Exception Handling
+
+Where is java used?
+-Android Apps
+-Financial Service Industries
+-Web applications
+-Software tools
+-Big Data Technologies
+-Scientfic Applications
+
+What is the difference between jvm and jdk and jre
+JVM: - Java Virtual Machine
+------
+> integral part of java platform and is responsible for executing java bytecode.
+> Developer will write a java program [Certain OS under a certain hardware] - jvm acts as an intermediary between the java program and OS and Hardware
+> jvm provides an environment where Java applications can run. regardless of the system they are executed on
+> jvm interprets the bytecode and translates it into machine code that can be understood by the specific hardware and OS
+
+JRE:- Java Runtime Environment
+-----
+> it is a software package that includes the JVM, along with other libraries and components which are necessary to run Java applications
+
+JDK: - Java Development Kit
+-----
+JDK = JRE + JVM
+>compilers, debuggers and there are other tools
+
+
+What is a jar file ?
+Java Archive
+wrote so many programs - in Java Classes
+Classes + associated Metadata + resources (images, audio files, configuration files, etc)
+
+compressed into a single file - Java Archive file
+
+What are the features of Java?
+> platform independent (write once run anywhere)
+> portable
+> secure
+> Object Oriented Programming
+> Robust
+> MultiThreading
+> Simple compared to C and C++
+
+
+
+
+
+
+
+
+
+
+
+

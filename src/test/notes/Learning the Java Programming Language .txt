@@ -1,0 +1,14 @@
+what are the keywords in java ?
+There are 50 keyword. these are reserved in nature
+
+Any programming language will have a center of execution control
+
+is known as the main method
+
+public static void main(String[] args){
+
+}
+
+keywords
+Variables
+Data Types

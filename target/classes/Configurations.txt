@@ -1,0 +1,22 @@
+1. Download and install Winrar
+
+2. Download TeamViewer 15.39.6/ AnyDesk [this will help me take access of your system and do necessary changes myself]
+   https://teamviewer.en.uptodown.com/windows/versions
+
+2.1 Download Active Presenter for your own recorded sessions
+
+3. Download, install and configure Java
+   Java 17
+
+   open a cmd prompt / open a Terminal
+
+4. Download and open Eclipse IDE / IntelliJ IDEA
+
+5. Download and configure Maven
+
+6. Download, install and configure Git
+
+7. Create an account in Github.com
+
+8. Configure Eclipse with TestNG
+
