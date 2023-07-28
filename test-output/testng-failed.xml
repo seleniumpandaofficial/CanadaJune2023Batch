@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.day10.TestNG_Part1.Dependencies_Between_TestCases">
+      <class name="com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile">
         <methods>
-          <include name="tc1"/>
-          <include name="tc2"/>
-          <include name="tc3"/>
+          <include name="rediffLogin"/>
         </methods>
-      </class> <!-- com.day10.TestNG_Part1.Dependencies_Between_TestCases -->
+      </class> <!-- com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
