@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile">
+      <class name="com.day12.automation.Alerts_PopUps">
         <methods>
-          <include name="rediffLogin"/>
+          <include name="handlingAlerts"/>
         </methods>
-      </class> <!-- com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile -->
+      </class> <!-- com.day12.automation.Alerts_PopUps -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

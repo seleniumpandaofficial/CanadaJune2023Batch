@@ -2,38 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-27T22:04:52 GMT-04:00" name="Default suite" finished-at="2023-07-27T22:05:06 GMT-04:00" duration-ms="13923">
+  <suite started-at="2023-07-30T20:55:04 GMT-04:00" name="Default suite" finished-at="2023-07-30T20:55:11 GMT-04:00" duration-ms="6977">
     <groups>
     </groups>
-    <test started-at="2023-07-27T22:04:52 GMT-04:00" name="Default test" finished-at="2023-07-27T22:05:06 GMT-04:00" duration-ms="13923">
-      <class name="com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile">
-        <test-method signature="rediffLogin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile@173ed316]" started-at="2023-07-27T22:04:52 GMT-04:00" name="rediffLogin" finished-at="2023-07-27T22:05:06 GMT-04:00" duration-ms="13866" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://rediff.com]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[seleniumpanda@rediffmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Selenium@123]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-07-30T20:55:04 GMT-04:00" name="Default test" finished-at="2023-07-30T20:55:11 GMT-04:00" duration-ms="6977">
+      <class name="com.day12.automation.Alerts_PopUps">
+        <test-method signature="handlingAlerts()[pri:0, instance:com.day12.automation.Alerts_PopUps@15bb5034]" started-at="2023-07-30T20:55:04 GMT-04:00" name="handlingAlerts" finished-at="2023-07-30T20:55:11 GMT-04:00" duration-ms="6909" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- rediffLogin -->
-      </class> <!-- com.day11.TestNG_Part2.Parameterization_TestCases_Using_TestNGxmlfile -->
+        </test-method> <!-- handlingAlerts -->
+      </class> <!-- com.day12.automation.Alerts_PopUps -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
