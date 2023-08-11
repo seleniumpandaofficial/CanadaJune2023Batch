@@ -4,9 +4,8 @@ public class Execution {
 
 	public static void main(String[] args) {
 		hello();
-		Execution.hello();
 		hello1();
-		Execution.hello1();
+		
 		
 		Execution ref = new Execution();
 		ref.hello2();

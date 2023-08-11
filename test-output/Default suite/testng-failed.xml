@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.day12.automation.Alerts_PopUps">
+      <class name="wait_concepts_in_Selenium.Rediff_Wait">
         <methods>
-          <include name="handlingAlerts"/>
+          <include name="clickOnSignInLink"/>
+          <include name="tearDown"/>
+          <include name="openUrl"/>
         </methods>
-      </class> <!-- com.day12.automation.Alerts_PopUps -->
+      </class> <!-- wait_concepts_in_Selenium.Rediff_Wait -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
