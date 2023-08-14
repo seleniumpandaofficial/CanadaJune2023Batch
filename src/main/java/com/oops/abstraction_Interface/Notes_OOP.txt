@@ -1,0 +1,31 @@
+polymorphism 
+- CompileTime/Static
+- method overloading - same methodname, same class, different args/parameters
+- automatic promotion
+- main method can be overloaded
+- if you change return type of the overloaded methods - method overloading will not be applicable
+
+-Runtime/Dynamic
+-method overriding - same methodname, different class, same args, inheritance
+-the access modifier of the Child class' over-ridden method should be same or hihgher
+
+abstraction 
+Abstract Class
+ -- 0 to 100% abstraction
+ -- abstract class can have both abstract(unimplemented/undefined) methods and concrete methods
+ -- a concrete class can extend an abstract class but it has to implement those undefined methods
+ -- cannot create the object of Abstract Class
+
+Interface
+ --methods are public, abstract 
+ --100% abstraction
+ -- variables are final, static and public
+ -- from jdk8 default concrete methods were allowed
+ -- from jdk9 private concrete methods were allowed
+ -- from jdk8 static concrete methods were also allowed
+ -- a concrete class which implements the interface is known as implementing class of that interface
+ -- one concrete class can implement multiple interfaces - this is multiple inheitance concept
+ -- the concrete class in its body will have to give definitions to the abstract/undefined methods of the interface
+ -- a concrete class can extends an Abstract class as well as implement multiple interfaces
+
+encapsulation
