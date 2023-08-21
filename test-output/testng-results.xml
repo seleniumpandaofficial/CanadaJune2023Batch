@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-17T21:07:56 GMT-04:00" name="Default suite" finished-at="2023-08-17T21:08:21 GMT-04:00" duration-ms="24818">
+  <suite started-at="2023-08-20T20:35:57 GMT-04:00" name="Include Exclude Suite" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="73">
     <groups>
     </groups>
-    <test started-at="2023-08-17T21:07:56 GMT-04:00" name="Default test" finished-at="2023-08-17T21:08:21 GMT-04:00" duration-ms="24818">
-      <class name="com.day12.applying_OOP_Automation.SearchProductTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:07:56 GMT-04:00" name="setup" finished-at="2023-08-17T21:08:05 GMT-04:00" duration-ms="8404" status="PASS">
+    <test started-at="2023-08-20T20:35:57 GMT-04:00" name="Include Exclude Test" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="73">
+      <class name="com.day13.TestNG_MoreConcepts.RegisterTest">
+        <test-method signature="Register1()[pri:0, instance:com.day13.TestNG_MoreConcepts.RegisterTest@6bbe85a8]" started-at="2023-08-20T20:35:57 GMT-04:00" name="Register1" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:05 GMT-04:00" name="verifySearchWithValidProduct" finished-at="2023-08-17T21:08:06 GMT-04:00" duration-ms="938" status="PASS">
+        </test-method> <!-- Register1 -->
+      </class> <!-- com.day13.TestNG_MoreConcepts.RegisterTest -->
+      <class name="com.day13.TestNG_MoreConcepts.LoginTest">
+        <test-method signature="Login1()[pri:0, instance:com.day13.TestNG_MoreConcepts.LoginTest@d737b89]" started-at="2023-08-20T20:35:57 GMT-04:00" name="Login1" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifySearchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:06 GMT-04:00" name="tearDown" finished-at="2023-08-17T21:08:06 GMT-04:00" duration-ms="259" status="PASS">
+        </test-method> <!-- Login1 -->
+        <test-method signature="Login3()[pri:0, instance:com.day13.TestNG_MoreConcepts.LoginTest@d737b89]" started-at="2023-08-20T20:35:57 GMT-04:00" name="Login3" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:06 GMT-04:00" name="setup" finished-at="2023-08-17T21:08:14 GMT-04:00" duration-ms="8050" status="PASS">
+        </test-method> <!-- Login3 -->
+      </class> <!-- com.day13.TestNG_MoreConcepts.LoginTest -->
+      <class name="com.day13.TestNG_MoreConcepts.SearchProductTest">
+        <test-method signature="searchProductTest1()[pri:0, instance:com.day13.TestNG_MoreConcepts.SearchProductTest@8519cb4]" started-at="2023-08-20T20:35:57 GMT-04:00" name="searchProductTest1" finished-at="2023-08-20T20:35:57 GMT-04:00" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:14 GMT-04:00" name="verifySearchWithInvalidProduct" finished-at="2023-08-17T21:08:15 GMT-04:00" duration-ms="842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithInvalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:15 GMT-04:00" name="tearDown" finished-at="2023-08-17T21:08:15 GMT-04:00" duration-ms="182" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:15 GMT-04:00" name="setup" finished-at="2023-08-17T21:08:20 GMT-04:00" duration-ms="5326" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:20 GMT-04:00" name="verifySearchWithNoProduct" finished-at="2023-08-17T21:08:21 GMT-04:00" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.day12.applying_OOP_Automation.SearchProductTest@79e4c792]" started-at="2023-08-17T21:08:21 GMT-04:00" name="tearDown" finished-at="2023-08-17T21:08:21 GMT-04:00" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.day12.applying_OOP_Automation.SearchProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- searchProductTest1 -->
+      </class> <!-- com.day13.TestNG_MoreConcepts.SearchProductTest -->
+    </test> <!-- Include Exclude Test -->
+  </suite> <!-- Include Exclude Suite -->
 </testng-results>

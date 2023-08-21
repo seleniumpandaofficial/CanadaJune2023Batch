@@ -16,7 +16,6 @@ public class LoginTest extends TestBase{
 		
 	}
 
-
 	public WebDriver driver;
 
 	@BeforeMethod
@@ -70,7 +69,6 @@ public class LoginTest extends TestBase{
 	
 	@Test(priority=5)
 	public void verifyLoginWithNoCredentials() {
-		
 		driver.findElement(By.cssSelector("input.btn.btn-primary")).click();
 		
 		String actualWarningMessage = driver.findElement(By.xpath("//div[contains(@class, 'alert-dismissible')]")).getText();

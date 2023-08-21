@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.day12.DataDrivenTesting.LoginTest">
+      <class name="com.day13.TestNG_Assertions.Assertion_Hard_Soft_Registration_TN">
         <methods>
-          <include name="tearDown"/>
-          <include name="rediffLoginTest" invocation-numbers="0 1 2 3 4"/>
+          <include name="verifyRegisterTestWithoutFillingAnyDetails"/>
         </methods>
-      </class> <!-- com.day12.DataDrivenTesting.LoginTest -->
+      </class> <!-- com.day13.TestNG_Assertions.Assertion_Hard_Soft_Registration_TN -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
