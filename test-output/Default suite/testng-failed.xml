@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="applying_DateConcept_In_Automation.RegisterTest">
+      <class name="com.automation.datePickers_Calendars.Calendar_DatePicker2">
         <methods>
-          <include name="verifyRegisterTest"/>
-          <include name="tearDown"/>
+          <include name="datePickerType1"/>
         </methods>
-      </class> <!-- applying_DateConcept_In_Automation.RegisterTest -->
+      </class> <!-- com.automation.datePickers_Calendars.Calendar_DatePicker2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
