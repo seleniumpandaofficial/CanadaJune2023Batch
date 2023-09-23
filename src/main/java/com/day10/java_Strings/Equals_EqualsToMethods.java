@@ -1,4 +1,4 @@
-package com.day10.java;
+package com.day10.java_Strings;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

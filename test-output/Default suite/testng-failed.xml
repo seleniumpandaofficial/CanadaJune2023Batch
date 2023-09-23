@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TestNG_Retry_Failed_TestCases.Way1">
+      <class name="com.automation.ChromeOptions.Demo">
         <methods>
-          <include name="verifyLoginTestWithInvalidCredentials"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.TestNG_Retry_Failed_TestCases.Way1 -->
+      </class> <!-- com.automation.ChromeOptions.Demo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
